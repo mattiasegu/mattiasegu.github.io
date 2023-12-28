@@ -8,6 +8,12 @@ redirect_from:
   - /education.html
 ---
 
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
 | Apr 2021 - Present   | **ETH Zürich, Switzerland**                       |
 |                      | PhD Candidate at the Computer Vision Lab          |
 | Sep 2022 - Aug 2023  | **Max Planck Institute for Informatics, Germany** |
