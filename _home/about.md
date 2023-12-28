@@ -2,6 +2,7 @@
 permalink: /home/about
 title: "About Me"
 excerpt: "About Me"
+collection: home
 author_profile: true
 redirect_from: 
   - /about/
