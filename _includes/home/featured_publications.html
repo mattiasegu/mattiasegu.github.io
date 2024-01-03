@@ -14,6 +14,7 @@ Visit <a href="https://scholar.google.com/citations?user=dwX7yWkAAAAJ&hl=en">my 
     overflow:hidden;padding:5px 5px;word-break:normal;}
 .center {
 text-align: center;
+vertical-align: top;
 padding: 0; /* Remove padding around the image */
 }
 .tg .bold{
@@ -32,17 +33,17 @@ font-weight: 300;border-color:#000000;font-size:16px;text-align:left;vertical-al
 <table class="tg">
 <!-- DARTH -->
 <tr>
-<td rowspan="5" class="center" style="width: 400px;"><img src="images/thumbnails/darth.png" alt="darth" style="width:400px; height:auto;"></td>
+<td rowspan="5" class="center" style="width: $table-img-width;"><img src="images/thumbnails/darth.png" alt="darth" style="width:$table-img-width; height:auto;"></td>
 <td class="bold">DARTH: Holistic Test-time Adaptation for Multiple Object Tracking</td>
 </tr>
 <tr>
-<td class="italic">Mattia Segu, Bernt Schiele, Fisher Yut</td>
+<td class="italic"><span style="text-decoration: underline;">Mattia Segu</span>, Bernt Schiele, Fisher Yut</td>
 </tr>
 <tr>
 <td class="thin">International Conference on Computer Vision (ICCV), 2023</td>
 </tr>
 <tr>
-<td>Multiple object tracking (MOT) is a fundamental component of perception systems for autonomous driving, and its robustness to unseen conditions is a requirement to avoid life-critical failures. Despite the urge of safety in driving systems, no solution to the MOT adaptation problem to domain shift in test-time conditions has ever been proposed. However, the nature of a MOT system is manifold - requiring object detection and instance association - and adapting all its components is non-trivial. In this paper, we analyze the effect of domain shift on appearance-based trackers, and introduce DARTH, a holistic test-time adaptation framework for MOT. We propose a detection consistency formulation to adapt object detection in a self-supervised fashion, while adapting the instance appearance representations via our novel patch contrastive loss. We evaluate our method on a variety of domain shifts - including sim-to-real, outdoor-to-indoor, indoor-to-outdoor - and substantially improve the source model performance on all metrics.</td>
+<td style="text-align: justify">Multiple object tracking (MOT) is a fundamental component of perception systems for autonomous driving, and its robustness to unseen conditions is a requirement to avoid life-critical failures. Despite the urge of safety in driving systems, no solution to the MOT adaptation problem to domain shift in test-time conditions has ever been proposed. However, the nature of a MOT system is manifold - requiring object detection and instance association - and adapting all its components is non-trivial. In this paper, we analyze the effect of domain shift on appearance-based trackers, and introduce DARTH, a holistic test-time adaptation framework for MOT. We propose a detection consistency formulation to adapt object detection in a self-supervised fashion, while adapting the instance appearance representations via our novel patch contrastive loss. We evaluate our method on a variety of domain shifts - including sim-to-real, outdoor-to-indoor, indoor-to-outdoor - and substantially improve the source model performance on all metrics.</td>
 </tr>
 <tr>
 <td>
@@ -51,19 +52,19 @@ font-weight: 300;border-color:#000000;font-size:16px;text-align:left;vertical-al
   <a href="https://github.com/mattiasegu/darth">[Code]</a>
 </td>
 </tr>
-<!-- Paper -->
+<!-- COOLer -->
 <tr>
-  <td rowspan="5" class="center" style="width: 400px;"><img src="images/thumbnails/darth.png" alt="darth" style="width:400px; height:auto;"></td>
-  <td class="bold">Bold Text</td>
+  <td rowspan="5" class="center" style="width: $table-img-width;"><img src="images/thumbnails/darth.png" alt="darth" style="width:$table-img-width; height:auto;"></td>
+  <td class="bold">COOLer: Class-Incremental Learning for Appearance-Based Multiple Object Tracking</td>
   </tr>
   <tr>
-  <td class="italic">Italic Text</td>
+  <td class="italic">Zhizheng Liu*, <span style="text-decoration: underline;">Mattia Segu*</span>, Fisher Yu</td>
   </tr>
   <tr>
-  <td class="thin">Thin Text</td>
+  <td class="thin">45th DAGM German Conference, DAGM GCPR 2023 (Oral)</td>
   </tr>
   <tr>
-  <td>Normal Text</td>
+  <td>Continual learning allows a model to learn multiple tasks sequentially while retaining the old knowledge without the training data of the preceding tasks. This paper extends the scope of continual learning research to class-incremental learning for \ac{mot}, which is desirable to accommodate the continuously evolving needs of autonomous systems. Previous solutions for continual learning of object detectors do not address the data association stage of appearance-based trackers, leading to catastrophic forgetting of previous classes' re-identification features. We introduce COOLer, a COntrastive- and cOntinual-Learning-based tracker, which incrementally learns to track new categories while preserving past knowledge by training on a combination of currently available ground truth labels and pseudo-labels generated by the past tracker. To further exacerbate the disentanglement of instance representations, we introduce a novel contrastive class-incremental instance representation learning technique. Finally, we propose a practical evaluation protocol for continual learning for MOT and conduct experiments on the \bdd and \shift datasets. Experimental results demonstrate that COOLer continually learns while effectively addressing catastrophic forgetting of both tracking and detection.</td>
   </tr>
   <tr>
   <td>
