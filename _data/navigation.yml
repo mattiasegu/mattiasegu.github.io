@@ -3,8 +3,8 @@ main:
   - title: "Home"
     url: /
 
-  - title: "About"
-    url: "#about"
+  - title: "News"
+    url: "#news"
 
   - title: "Featured Publications"
     url: "#featured_publications"
