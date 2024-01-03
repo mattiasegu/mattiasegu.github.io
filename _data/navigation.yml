@@ -3,6 +3,15 @@ main:
   - title: "Home"
     url: /
 
+  - title: "About"
+    url: "#about"
+
+  - title: "Education"
+    url: "#education"
+    
+  - title: "Internships"
+    url: "#internships"
+
   # - title: "About"
   #   url: /about/
 
