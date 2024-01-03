@@ -6,17 +6,8 @@ main:
   - title: "About"
     url: "#about"
 
-  - title: "Education"
-    url: "#education"
-    
-  - title: "Internships"
-    url: "#internships"
-
-  # - title: "About"
-  #   url: /about/
-
-  # - title: "Featured Publications"
-  #   url: /featured_publications/
+  - title: "Featured Publications"
+    url: "#featured_publications"
 
   - title: "Publications"
     url: /publications/
