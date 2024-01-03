@@ -1,5 +1,5 @@
 ---
-permalink: /home/about
+permalink: //about
 title: "About Me"
 excerpt: "About Me"
 collection: home
