@@ -1,0 +1,24 @@
+{% include base_path %}
+
+
+<!-- GENERAL UNCERTAINTY -->
+<tr>
+  <td rowspan="5" class="center" style="width: 400px;"><img src="images/thumbnails/general_uncertainty.png" alt="general-uncertainty" style="width:400px; height:auto;"></td>
+  <td class="bold">A general framework for uncertainty estimation in deep learning</td>
+  </tr>
+  <tr>
+  <td class="italic">Antonio Loquercio*,<span style="text-decoration: underline;">Mattia Segu</span>*, Davide Scaramuzza</td>
+  </tr>
+  <tr>
+  <td class="thin">IEEE Robotics and Automation Letters (RA-L), 2020</td>
+  </tr>
+  <tr>
+  <td style="text-align: justify">Neural networks predictions are unreliable when the input sample is out of the training distribution or corrupted by noise. Being able to detect such failures automatically is fundamental to integrate deep learning algorithms into robotics. Current approaches for uncertainty estimation of neural networks require changes to the network and optimization process, typically ignore prior knowledge about the data, and tend to make over-simplifying assumptions which underestimate uncertainty. To address these limitations, we propose a novel framework for uncertainty estimation. Based on Bayesian belief networks and Monte-Carlo sampling, our framework not only fully models the different sources of prediction uncertainty, but also incorporates prior data information, e.g. sensor noise. We show theoretically that this gives us the ability to capture uncertainty better than existing methods. In addition, our framework has several desirable properties: (i) it is agnostic to the network architecture and task; (ii) it does not require changes in the optimization process; (iii) it can be applied to already trained architectures. We thoroughly validate the proposed framework through extensive experiments on both computer vision and control tasks, where we outperform previous methods by up to 23% in accuracy.</td>
+  </tr>
+  <tr>
+  <td>
+    <a href="https://arxiv.org/abs/1907.06890">[arXiv]</a>
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9001195">[RA-L 2020 Paper]</a>
+    <a href="https://github.com/mattiasegu/uncertainty_estimation_deep_learning">[Code]</a>
+  </td>
+  </tr>
