@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=dwX7yWkAAAAJ&hl=en"
-  email            : "mailto:mattia.segu@vision.ee.ethz.ch"
+  email            : "mattia.segu@vision.ee.ethz.ch"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/mattia-segu/"
+  linkedin         : "mattia-segu"
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/MattiaSegu"
+  twitter          : "MattiaSegu"
   vine             :
   weibo            :
   xing             :
