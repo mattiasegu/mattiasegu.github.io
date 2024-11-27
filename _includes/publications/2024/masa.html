@@ -1,0 +1,28 @@
+{% include base_path %}
+
+<!-- MASA -->
+<tr>
+<td rowspan="5" class="center" style="width: 600px;"><img src="images/thumbnails/masa.png" alt="masa" style="width:600px; height:auto;"></td>
+<td class="bold">Matching Anything by Segmenting Anything</td>
+</tr>
+<tr>
+<td class="italic">Siyuan Li, Lei Ke, Martin Danelljan, Luigi Piccinelli, <span style="text-decoration: underline;">Mattia Segu</span>, Luc Van Gool, Fisher Yu</td>
+</tr>
+<tr>
+<td class="thin">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</td>
+</tr>
+<tr>
+<td style="text-align: justify">The robust association of the same objects across video frames in complex scenes is crucial for many applications especially object tracking. Current methods predominantly rely on labeled domain-specific video datasets which limits cross-domain generalization of learned similarity embeddings. We propose MASA a novel method for robust instance association learning capable of matching any objects within videos across diverse domains without tracking labels. Leveraging the rich object segmentation from the Segment Anything Model (SAM) MASA learns instance-level correspondence through exhausive data transformations. We treat the SAM outputs as dense object region proposals and learn to match those regions from a vast image collection. We further design a universal MASA adapter which can work in tandem with foundational segmentation or detection models and enable them to track any detected objects. Those combinations present strong zero-shot tracking ability in complex domains. Extensive tests on multiple challenging MOT and MOTS benchmarks indicate that the proposed method using only unlabelled static images achieves even better performance than state-of-the-art methods trained with fully annotated in-domain video sequences in zero-shot association.</td>
+</tr>
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2406.04221">[arXiv]</a>
+  <a href="http://openaccess.thecvf.com/content/CVPR2024/papers/Li_Matching_Anything_by_Segmenting_Anything_CVPR_2024_paper.pdf">[CVPR 2024 Paper]</a>
+  <a href="https://github.com/siyuanliii/masa">[Code]</a>
+</td>
+</tr>
+
+<!-- Empty row for spacing -->
+<tr>
+  <td style="height: 15px; padding: 0;" colspan="2"></td>
+</tr>

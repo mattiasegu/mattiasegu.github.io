@@ -1,0 +1,28 @@
+{% include base_path %}
+
+<!-- UniDepth -->
+<tr>
+<td rowspan="5" class="center" style="width: 400px;"><img src="images/thumbnails/unidepth.png" alt="unidepth" style="width:400px; height:auto;"></td>
+<td class="bold">UniDepth: Universal Monocular Metric Depth Estimation</td>
+</tr>
+<tr>
+<td class="italic">Luigi Piccinelli, Yung-Hsu Yang, Christos Sakaridis, <span style="text-decoration: underline;">Mattia Segu</span>, Siyuan Li, Luc Van Gool, Fisher Yu</td>
+</tr>
+<tr>
+<td class="thin">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</td>
+</tr>
+<tr>
+<td style="text-align: justify">Accurate monocular metric depth estimation (MMDE) is crucial to solving downstream tasks in 3D perception and modeling. However, the remarkable accuracy of recent MMDE methods is confined to their training domains. These methods fail to generalize to unseen domains even in the presence of moderate domain gaps, which hinders their practical applicability. We propose a new model, UniDepth, capable of reconstructing metric 3D scenes from solely single images across domains. Departing from the existing MMDE methods, UniDepth directly predicts metric 3D points from the input image at inference time without any additional information, striving for a universal and flexible MMDE solution. In particular, UniDepth implements a self-promptable camera module predicting dense camera representation to condition depth features. Our model exploits a pseudo-spherical output representation, which disentangles camera and depth representations. In addition, we propose a geometric invariance loss that promotes the invariance of camera-prompted depth features. Thorough evaluations on ten datasets in a zero-shot regime consistently demonstrate the superior performance of UniDepth, even when compared with methods directly trained on the testing domains.</td>
+</tr>
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2403.18913">[arXiv]</a>
+  <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Piccinelli_UniDepth_Universal_Monocular_Metric_Depth_Estimation_CVPR_2024_paper.pdf">[CVPR 2024 Paper]</a>
+  <a href="https://github.com/lpiccinelli-eth/unidepth">[Code]</a>
+</td>
+</tr>
+
+<!-- Empty row for spacing -->
+<tr>
+  <td style="height: 15px; padding: 0;" colspan="2"></td>
+</tr>

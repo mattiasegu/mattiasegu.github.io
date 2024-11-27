@@ -1,0 +1,28 @@
+{% include base_path %}
+
+<!-- Know Your Neighbors -->
+<tr>
+<td rowspan="5" class="center" style="width: 600px;"><img src="images/thumbnails/kyn.png" alt="kyn" style="width:600px; height:auto;"></td>
+<td class="bold">Know Your Neighbors: Improving Single-View Reconstruction via Spatial Vision-Language Reasoning</td>
+</tr>
+<tr>
+<td class="italic">Rui Li, Tobias Fischer, <span style="text-decoration: underline;">Mattia Segu</span>, Marc Pollefeys, Luc Van Gool, Federico Tombari</td>
+</tr>
+<tr>
+<td class="thin">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</td>
+</tr>
+<tr>
+<td style="text-align: justify">Recovering the 3D scene geometry from a single view is a fundamental yet ill-posed problem in computer vision. While classical depth estimation methods infer only a 2.5 D scene representation limited to the image plane recent approaches based on radiance fields reconstruct a full 3D representation. However these methods still struggle with occluded regions since inferring geometry without visual observation requires (i) semantic knowledge of the surroundings and (ii) reasoning about spatial context. We propose KYN a novel method for single-view scene reconstruction that reasons about semantic and spatial context to predict each point's density. We introduce a vision-language modulation module to enrich point features with fine-grained semantic information. We aggregate point representations across the scene through a language-guided spatial attention mechanism to yield per-point density predictions aware of the 3D semantic context. We show that KYN improves 3D shape recovery compared to predicting density for each 3D point in isolation. We achieve state-of-the-art results in scene and object reconstruction on KITTI-360 and show improved zero-shot generalization compared to prior work.</td>
+</tr>
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2404.03658">[arXiv]</a>
+  <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Know_Your_Neighbors_Improving_Single-View_Reconstruction_via_Spatial_Vision-Language_Reasoning_CVPR_2024_paper.pdf">[CVPR 2024 Paper]</a>
+  <a href="https://ruili3.github.io/kyn">[Project Page]</a>
+</td>
+</tr>
+
+<!-- Empty row for spacing -->
+<tr>
+  <td style="height: 15px; padding: 0;" colspan="2"></td>
+</tr>

@@ -1,0 +1,28 @@
+{% include base_path %}
+
+<!-- Walker -->
+<tr>
+<td rowspan="5" class="center" style="width: 600px;"><img src="images/thumbnails/walker.png" alt="walker" style="width:600px; height:auto;"></td>
+<td class="bold">Walker: Self-supervised Multiple Object Tracking by Walking on Temporal Appearance Graphs</td>
+</tr>
+<tr>
+<td class="italic"><span style="text-decoration: underline;">Mattia Segu</span>, Luigi Piccinelli, Siyuan Li, Luc Van Gool, Fisher Yu, Bernt Schiele</td>
+</tr>
+<tr>
+<td class="thin">European Conference on Computer Vision (ECCV), 2024</td>
+</tr>
+<tr>
+<td style="text-align: justify">The supervision of state-of-the-art multiple object tracking (MOT) methods requires enormous annotation efforts to provide bounding boxes for all frames of all videos, and instance IDs to associate them through time. To this end, we introduce Walker, the first self-supervised tracker that learns from videos with sparse bounding box annotations, and no tracking labels. First, we design a quasi-dense temporal object appearance graph, and propose a novel multi-positive contrastive objective to optimize random walks on the graph and learn instance similarities. Then, we introduce an algorithm to enforce mutually-exclusive connective properties across instances in the graph, optimizing the learned topology for MOT. At inference time, we propose to associate detected instances to tracklets based on the max-likelihood transition state under motion-constrained bi-directional walks. Walker is the first self-supervised tracker to achieve competitive performance on MOT17, DanceTrack, and BDD100K. Remarkably, our proposal outperforms the previous self-supervised trackers even when drastically reducing the annotation requirements by up to 400x.</td>
+</tr>
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2409.17221">[arXiv]</a>
+  <a href="https://link.springer.com/chapter/10.1007/978-3-031-73242-3_1">[ECCV 2024 Paper]</a>
+  <a href="https://github.com/mattiasegu/walker">[Code]</a>
+</td>
+</tr>
+
+<!-- Empty row for spacing -->
+<tr>
+  <td style="height: 15px; padding: 0;" colspan="2"></td>
+</tr>

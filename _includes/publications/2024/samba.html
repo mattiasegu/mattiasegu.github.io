@@ -1,0 +1,27 @@
+{% include base_path %}
+
+<!-- Samba -->
+<tr>
+<td rowspan="5" class="center" style="width: 600px;"><img src="images/thumbnails/samba.png" alt="samba" style="width:600px; height:auto;"></td>
+<td class="bold">Samba: Synchronized Set-of-Sequences Modeling for Multiple Object Tracking</td>
+</tr>
+<tr>
+<td class="italic"><span style="text-decoration: underline;">Mattia Segu</span>, Luigi Piccinelli, Siyuan Li, Yung-Hsu Yang, Bernt Schiele, Luc Van Gool</td>
+</tr>
+<tr>
+<td class="thin">arXiv preprint, 2024</td>
+</tr>
+<tr>
+<td style="text-align: justify">Multiple object tracking in complex scenarios - such as coordinated dance performances, team sports, or dynamic animal groups - presents unique challenges. In these settings, objects frequently move in coordinated patterns, occlude each other, and exhibit long-term dependencies in their trajectories. However, it remains a key open research question on how to model long-range dependencies within tracklets, interdependencies among tracklets, and the associated temporal occlusions. To this end, we introduce Samba, a novel linear-time set-of-sequences model designed to jointly process multiple tracklets by synchronizing the multiple selective state-spaces used to model each tracklet. Samba autoregressively predicts the future track query for each sequence while maintaining synchronized long-term memory representations across tracklets. By integrating Samba into a tracking-by-propagation framework, we propose SambaMOTR, the first tracker effectively addressing the aforementioned issues, including long-range dependencies, tracklet interdependencies, and temporal occlusions. Additionally, we introduce an effective technique for dealing with uncertain observations (MaskObs) and an efficient training recipe to scale SambaMOTR to longer sequences. By modeling long-range dependencies and interactions among tracked objects, SambaMOTR implicitly learns to track objects accurately through occlusions without any hand-crafted heuristics. Our approach significantly surpasses prior state-of-the-art on the DanceTrack, BFT, and SportsMOT datasets.</td>
+</tr>
+<tr>
+<td>
+  <a href="https://arxiv.org/abs/2410.01806">[arXiv]</a>
+  <a href="https://sambamotr.github.io/">[Project Page]</a>
+</td>
+</tr>
+
+<!-- Empty row for spacing -->
+<tr>
+  <td style="height: 15px; padding: 0;" colspan="2"></td>
+</tr>
